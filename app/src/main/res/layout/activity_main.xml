@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.curso.jyrki.mitareacurso3semana2.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/nombreCompleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_completo" />
+
+    <EditText
+        android:id="@+id/nombreCompleto_campo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha" />
+
+    <DatePicker
+        android:id="@+id/fechaDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:spinnersShown="true"
+        android:spinnerMode="dropdown"
+        android:datePickerMode="spinner"
+        >DatePicker</DatePicker>
+
+    <TextView
+        android:id="@+id/teléfono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fecha"
+        android:text="@string/teléfono" />
+    <EditText
+        android:id="@+id/teléfono_campo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teléfono"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/email_campo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/descripción"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email"
+        android:text="@string/descripción" />
+
+    <EditText
+        android:id="@+id/descripción_campo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/activitybutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Sequiente"
+        android:textSize="35dp"
+
+        />
+</LinearLayout>

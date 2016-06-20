@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiTareaCurso3Semana2</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="next">Next</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="fecha">Fecha de nacimiento</string>
+    <string name="teléfono">teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripción">Descripción del contacto</string>
+
+</resources>
