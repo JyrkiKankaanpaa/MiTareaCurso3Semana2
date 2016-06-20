@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -13,33 +14,31 @@
         android:id="@+id/nombreCompleto_dos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=nombreCompleto_campo_dos />
+        android:text="nombre" />
 
     <TextView
         android:id="@+id/fecha_dos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=fechaDatePicker_dos />
+        android:text="fecha" />
 
     <TextView
         android:id="@+id/teléfono_dos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/fecha"
-        android:text=teléfono_campo_dos />
+        android:text="tele" />
     <TextView
         android:id="@+id/email_dos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/teléfono"
-        android:text=email_campo_dos />
+        android:text="email" />
 
     <TextView
         android:id="@+id/descripción_dos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Email"
-        android:text=descripción_campo_dos />
+        android:text="des" />
+
 
     <Button
         android:id="@+id/activitybutton2"

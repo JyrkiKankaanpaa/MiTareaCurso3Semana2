@@ -16,7 +16,7 @@
         android:id="@+id/nombreCompleto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nombre_completo" />
+        android:text="@string/nombre_completo"/>
 
     <EditText
         android:id="@+id/nombreCompleto_campo"
@@ -30,31 +30,26 @@
         android:text="@string/fecha" />
 
     <DatePicker
-        android:id="@+id/fechaDatePicker"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:calendarViewShown="false"
-        android:spinnersShown="true"
-        android:spinnerMode="dropdown"
-        android:datePickerMode="spinner"
-        >DatePicker</DatePicker>
+        android:layout_height="155dp"
+        android:id="@+id/datePicker" />
+
 
     <TextView
         android:id="@+id/teléfono"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/fecha"
         android:text="@string/teléfono" />
     <EditText
         android:id="@+id/teléfono_campo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+
     <TextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/teléfono"
         android:text="@string/email" />
 
     <EditText
@@ -66,7 +61,6 @@
         android:id="@+id/descripción"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Email"
         android:text="@string/descripción" />
 
     <EditText
@@ -79,8 +73,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Sequiente"
+        android:text="Siquiente"
         android:textSize="35dp"
-
+        android:onClick="sendData"
         />
 </LinearLayout>
